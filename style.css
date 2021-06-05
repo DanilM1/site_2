@@ -1,0 +1,344 @@
+@font-face {
+    font-family: "Revalia";
+    src: url("/fonts/Revalia-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "sans-seri";
+    src: url("/fonts/Roboto-Regular.ttf") format("ttf");
+}
+
+body {
+    width: 1920px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#EEEFF1;
+}
+
+h1 {
+    margin-right: 21%;
+    font-family: 'Revalia', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 57.6px;
+    line-height: 71px;
+    color: #34547A;
+}
+
+nav > a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-right: 37px;
+}
+
+nav > a:hover {
+    color: #34547A;
+}
+
+#design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEFF1;
+}
+
+#img_PC {
+    margin: 115px 0 197px 60px;
+}
+
+#message {
+    margin-left: 145px;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+}
+
+#message_fish {
+    margin: 45px 0;
+    width: 518px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+#design_button {
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFF;
+}
+
+#about_me {
+    padding-top: 110px;
+    text-align: center;
+    background-color: #E5E5E5;
+}
+
+#about_me > h3 {
+    margin: 0 0 40px 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+#about_me > p {
+    margin: 0 auto;
+    padding: 10px 0 90px 0;
+    width: 518px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #34547A;
+}
+
+#projects > div {
+    margin: 95px 56px 97px 0;
+}
+
+.project {
+    display: flex;
+}
+
+.project > p {
+    margin: 1px 0 0 20px;
+    color: #FFF;
+}
+
+.number_of_there_projects {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.total_of_there_projects {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#my_skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills {
+    margin-right: 110px;
+    margin-bottom: -10px;
+}
+
+.skill {
+    margin: 25px 0 0 0;
+}
+
+#skills > h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+progress[value] {
+    width: 450px;
+    height: 10px;
+    color: #34547A;
+}
+
+#photo {
+    margin: 100px 0 65px 40px;
+}
+
+#how_do_i_work {
+    background-color: #EEEFF1;
+    text-align: center;
+}
+
+#how_do_i_work > h3 {
+    padding-top: 103px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+#how_do_i_work > p {
+    margin: 0 auto;
+    padding: 10px 0 45px 0;
+    width: 518px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+video {
+    margin-bottom: 107px;
+}
+
+#portfolio {
+    margin-top: 30px;
+    width: 1940px;
+}
+
+#portfolio > img:hover {
+    background-color: rgba(52, 84, 122, 0.8);
+    opacity: 0.8;
+}
+
+#microsoft {
+    text-align: center;
+    background-color: #E5E5E5;
+}
+
+#microsoft > img {
+    margin: 90px 20px 70px 0;
+}
+
+#form {
+    text-align: center;
+    background-color: #EEEFF1;
+}
+
+#form > h3 {
+    margin: 0;
+    padding: 105px 0 30px 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+#form > p {
+    margin: 0 auto;
+    width: 518px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+input[type=text] {
+    margin: 70px 15px 15px 15px;
+    width: 255px;
+    height: 50px;
+    background-color: #FFF;
+    border: 0;
+}
+
+textarea {
+    width: 550px;
+    height: 175px;
+    background-color: #FFF;
+    border: 0;
+    resize: none;
+}
+
+input[type=submit] {
+    margin: 35px 0 100px 0;
+    width: 190px;
+    height: 55px;
+    background-color: #34547A;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #34547A;
+    color: #FFF;
+}
+
+address {
+    display: block;
+    margin: 60px 800px 50px 0;
+    line-height: 25px;
+}
+
+footer > div > img {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    header, section, footer {
+        display: block !important;
+        width: 100vw;
+    }
+
+    * {
+        margin: 0 !important;
+        margin: 0.5% !important;
+        padding: 0 !important;
+        text-align: left !important;
+    }
+
+    p {
+        width: 95vw !important;
+    }
+
+    input[type=submit], button, address, .vk {
+        text-align: center !important;
+    }
+}
